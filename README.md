@@ -69,5 +69,3 @@ O método `main` cria uma nova instância da classe `JogoBatalhaNaval`, iniciand
 Ao executar o programa, o usuário verá uma solicitação para inserir coordenadas de ataque. O programa responderá com o resultado do ataque (`X` para acerto, `O` para erro) e atualizará o tabuleiro visível ao jogador. O jogo continuará até que todos os navios sejam destruídos ou o jogador use todas as 30 jogadas.
 
 ---
-
-Este programa é uma excelente ferramenta para aprender conceitos de manipulação de matrizes, controle de fluxo, entrada de dados do usuário e jogos baseados em texto em Java.
