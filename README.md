@@ -1,8 +1,8 @@
-# TrabalhoFinal
+# JogoBatalhaNaval
 
 ## Descrição
 
-O programa **TrabalhoFinal** é uma implementação de um jogo de batalha naval em Java. O jogador tenta adivinhar as posições dos navios em um tabuleiro de 8x8, atacando coordenadas específicas. O objetivo é destruir todos os 10 navios posicionados aleatoriamente no tabuleiro dentro de um limite de 30 jogadas.
+O programa **JogoBatalhaNaval** é uma implementação de um jogo de batalha naval em Java. O jogador tenta adivinhar as posições dos navios em um tabuleiro de 8x8, atacando coordenadas específicas. O objetivo é destruir todos os 10 navios posicionados aleatoriamente no tabuleiro dentro de um limite de 30 jogadas.
 
 ## Funcionalidades
 
@@ -12,10 +12,10 @@ O programa **TrabalhoFinal** é uma implementação de um jogo de batalha naval 
 
 ## Estrutura do Código
 
-### Classe `Trabalho`
+### Classe `JogoBatalhaNaval`
 
 - **Construtor**:
-  - `Trabalho()`: Inicializa os tabuleiros, gerencia a interação com o jogador e determina o fim do jogo.
+  - `JogoBatalhaNaval()`: Inicializa os tabuleiros, gerencia a interação com o jogador e determina o fim do jogo.
 
 - **Métodos**:
   - `inicializacaoTabuleiro(String[][] tabuleiro, String[][] tabuleiroJogador)`: Preenche os tabuleiros com água e posiciona os navios aleatoriamente.
@@ -24,7 +24,7 @@ O programa **TrabalhoFinal** é uma implementação de um jogo de batalha naval 
 
 ### Método `main`
 
-O método `main` cria uma nova instância da classe `Trabalho`, iniciando o jogo.
+O método `main` cria uma nova instância da classe `JogoBatalhaNaval`, iniciando o jogo.
 
 ## Detalhes dos Métodos
 
@@ -57,11 +57,11 @@ O método `main` cria uma nova instância da classe `Trabalho`, iniciando o jogo
 1. Certifique-se de ter o JDK instalado em sua máquina.
 2. Compile o programa com o comando:
    ```sh
-   javac TrabalhoFinal/Trabalho.java
+   javac TrabalhoFinal/JogoBatalhaNaval.java
    ```
 3. Execute o programa com o comando:
    ```sh
-   java TrabalhoFinal.Trabalho
+   java TrabalhoFinal.JogoBatalhaNaval
    ```
 
 ## Exemplo de Uso
